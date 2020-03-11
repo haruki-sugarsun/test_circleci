@@ -1,4 +1,4 @@
-package example.springframework.boot.minimal;
+package net.sickhack.test_circleci;
 
 import static java.util.Objects.requireNonNull;
 

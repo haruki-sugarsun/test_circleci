@@ -1,4 +1,4 @@
-package example.springframework.boot.minimal;
+package net.sickhack.test_circleci;
 
 import javax.validation.constraints.Size;
 

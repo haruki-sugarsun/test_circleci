@@ -1,4 +1,4 @@
-package example.springframework.boot.minimal;
+package net.sickhack.test_circleci;
 
 import static net.javacrumbs.jsonunit.fluent.JsonFluentAssert.assertThatJson;
 import static org.assertj.core.api.Assertions.assertThat;

@@ -1,4 +1,4 @@
-package example.springframework.boot.minimal;
+package net.sickhack.test_circleci;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,2 +1,19 @@
 .gradle
 build
+
+# Eclipse
+# https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+.project
+.classpath
+.settings
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
