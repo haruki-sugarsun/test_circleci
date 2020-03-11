@@ -28,7 +28,8 @@ public class HelloConfiguration {
 	Object init(Environment environment) {
 		System.err.println("haruki DEBUG: " + environment);
 
-		// ref:
+		// refs:
+		// http://www.appsdeveloperblog.com/reading-application-properties-spring-boot/
 		// https://stackoverflow.com/questions/23506471/spring-access-all-environment-properties-as-a-map-or-properties-object
 		Map<String, Object> map = new HashMap<String, Object>();
 		for (Iterator<PropertySource<?>> it = ((AbstractEnvironment) environment).getPropertySources().iterator(); it
@@ -40,7 +41,7 @@ public class HelloConfiguration {
 		}
 
 		System.err.println("haruki DEBUG: " + map);
-		System.exit(1);
+		// System.exit(1);
 		return null;
 	}
 

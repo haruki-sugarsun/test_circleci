@@ -2,6 +2,7 @@ package net.sickhack.test_circleci;
 
 import static net.javacrumbs.jsonunit.fluent.JsonFluentAssert.assertThatJson;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.fail;
 
 import javax.inject.Inject;
 
@@ -46,4 +47,9 @@ class HelloApplicationIntegrationTest {
                 .node("message")
                 .isEqualTo("hello.name: name should have between 3 and 10 characters");
     }
+
+	@Test
+	void forcedTestFail() {
+		fail();
+	}
 }
