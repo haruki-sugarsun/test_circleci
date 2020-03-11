@@ -31,7 +31,7 @@ dependencies {
 }
 
 springBoot {
-    mainClassName = 'example.springframework.boot.minimal.Main'
+    mainClassName = 'net.sickhack.test_circleci.Main'
 }
 
 dependencies {
